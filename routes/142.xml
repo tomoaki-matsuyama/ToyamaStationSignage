@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>busroute</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#busroute">
+		<SimpleData name="N07_001">1</SimpleData>
+		<SimpleData name="N07_002">北鉄能登バス（株）</SimpleData>
+		<SimpleData name="N07_003">水上</SimpleData>
+		<SimpleData name="N07_004">9.0</SimpleData>
+		<SimpleData name="N07_005">7.0</SimpleData>
+		<SimpleData name="N07_006">7.0</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>137.051635,36.95920361,0 137.05152528,36.95910528,0 137.05130235,36.95900892,0 137.05125194,36.95898694,0 137.0510275,36.95894194,0 137.05062778000001,36.95889139,0 137.050305,36.95888,0 137.04986333,36.95890806,0 137.04962472,36.9589025,0 137.04909861,36.95878417,0 137.04888111,36.95870556,0 137.04874944,36.95863944,0 137.04865667000001,36.95859278,0 137.04840417,36.95842389,0 137.04833389000001,36.95836194,0 137.04831306,36.95835611,0 137.04813508000001,36.95801854,0</coordinates></LineString>
+  </Placemark></Folder><Schema name="busroute" id="busroute"><SimpleField name="N07_001" type="int"></SimpleField><SimpleField name="N07_002" type="string"></SimpleField><SimpleField name="N07_003" type="string"></SimpleField><SimpleField name="N07_004" type="float"></SimpleField><SimpleField name="N07_005" type="float"></SimpleField><SimpleField name="N07_006" type="float"></SimpleField><SimpleField name="N07_007" type="string"></SimpleField></Schema></Document></kml>
